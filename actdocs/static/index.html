@@ -1,12 +1,14 @@
 [% WRAPPER ui title = global.conference.name %]
 
 <p>
-Welcome to the fifth Swiss Perl Workshop.
+Welcome to the sixth Swiss Perl Workshop.
 </p>
 
-<p>Dates: Friday 7th September 2018 and Saturday 8th September 2018<br />
-Venue: <a href="[% make_uri('venue.html') %]">Gewerblich-Industrielle Berufsschule</a>, Bern<br />
-Language: English
+<p>
+<strong>Dates</strong>: Friday 16th and Saturday 17th August 2019<br />
+<strong>Venue</strong>: <a href="[% make_uri('venue.html') %]">Flörli Olten</a><br />
+<strong>Language</strong>: English<br />
+<strong>Cost</strong>: Free for private attendees, students, and speakers.
 </p>
 
 <!--
@@ -17,24 +19,16 @@ Help us to advertise the workshop in your company: <a href="[% make_uri_info('im
 
 <!--
 <p>
-Workshop times: The <a href="[% make_uri('schedule') %]">schedule</a> is online.
-</p>
--->
-
-<!--
-<p>
-If you take pictures, please share them with us: <a href="[% make_uri('wiki?node=ShareEverything') %]">ShareEverything</a> or directly on <a href="https://moas.mhochzwei.net/oc/index.php/s/41HE1ilfMOcSA3Z"> upload directory</a>.
-</p>
--->
-
-<!--
-<p>
-Also, because we have rented a house with a few rooms, we are very open to any workshop-like ideas. This could be anything Perl that 2-10 people can attend.
+The <a href="[% make_uri('schedule') %]">schedule</a> is online.
 </p>
 -->
 
 <p>
-Please <a href="[% make_uri('register') %]">register</a> and <a href="[% make_uri('purchase') %]">confirm your participation</a> soon, to reserve your seat. The conference is FREE for private attendees, students and speakers. Corporate attendees, please check the <a href="[% make_uri('registration.html') %]">Registration</a> page.
+Please <a href="[% make_uri('register') %]">register</a> and <a href="[% make_uri('purchase') %]">confirm your participation</a> soon, to reserve your place. The conference is FREE for private attendees, students and speakers. Corporate attendees, please check the <a href="[% make_uri('registration.html') %]">Registration</a> page.
+</p>
+
+<p>
+We are looking for speakers, if you have an idea for a talk or presentation then please <a href="[% make_uri('newtalk') %]">submit a talk proposal</a>. Because the venue has a few rooms we are also very open to any workshop-like ideas. This could be anything that 2-10 people can attend.
 </p>
 
 <p>
@@ -54,7 +48,7 @@ Watch this space for updates, or check the <a href="[% global.request.base_url %
 </p>
 
 [% news = global.news(6);
-   IF news.size > 5;
+   IF news.size > 3;
      more = news.pop;
    END;
  %]
