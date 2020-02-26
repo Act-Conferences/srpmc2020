@@ -75,7 +75,7 @@ function linkTo_UnCryptMailto( s )
 						<div class="12u">
 							<h1><a href="[% make_uri('index.html') %]" class="mobileUI-site-name"><img src="[% make_uri_info('images', 'SwissPerlLogoBW.svg') %]" width="90px" alt="Logo" /> Swiss Raku and Perl Miniconf 2020</a></h1>
 							<social id="social">
-								<a target="_blank" href="http://www.facebook.com/swissperlworkshop"><img src="[% make_uri_info('images', 'facebook.png') %]" alt="Facebook" /></a>
+								<a target="_blank" href="http://www.facebook.com/swissrakuperlminicon"><img src="[% make_uri_info('images', 'facebook.png') %]" alt="Facebook" /></a>
 								<!--<a target="_blank" href="https://www.xing.com/events/swiss-perl-workshop-2017-1822847"><img src="[% make_uri_info('images', 'xing.png') %]" alt="Xing" /></a>-->
 								<a target="_blank" href="http://www.meetup.com/r/inbound/0/0/shareimg/http://www.meetup.com/Swiss-Perl-Community-Meetup/?a=shareimg"><img src="[% make_uri_info('images', 'meetup.png') %]" alt="Meetup" /></a>
 								<a target="_blank" href="https://www.instagram.com/perl_events/"><img src="[% make_uri_info('images', 'instagramm.png') %]" alt="Instagramm" /></a>
