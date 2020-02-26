@@ -200,7 +200,7 @@ function linkTo_UnCryptMailto( s )
 									</p>
 									<p>Raku is a new language, part of the Perl family, not intended as a replacement for Perl 5, but as its own thing - libraries exist to allow you to call Perl 5 code from Raku programs and vice versa.
 									</p>
-									<a href="http://www.perl.org/">More about Perl...</a>
+									More about <a href="http://www.perl.org/">Perl</a> and <a href="https://www.raku.org">Raku</a>...
 								</section>
 						</div>
 					</div>
