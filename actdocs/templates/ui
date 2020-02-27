@@ -93,7 +93,7 @@ function linkTo_UnCryptMailto( s )
 							<div class="2u">
 								<!-- Left Sidebar -->
 									<section>
-                                                                                <div class="menu-section"><a href="[% make_uri('index.html') %]">Workshop</a></div>
+                                                                                <div class="menu-section"><a href="[% make_uri('index.html') %]">Conference</a></div>
 										<div class="menu-item"><a href="[% make_uri('venue.html') %]">Venue</a></div>
 										<div class="menu-item"><a href="[% make_uri('registration.html') %]">Registration</a></div>
 										<div class="menu-item"><a href="[% make_uri('cfp.html') %]">Call for papers</a></div>
