@@ -1,15 +1,17 @@
 [% WRAPPER ui title = global.conference.name %]
 
 <p>
-Welcome to the seventh Swiss Raku and Perl Miniconf.
+Due to the current restrictions around COVID-19 the Swiss Raku and Perl Miniconf will not take place this year.
 </p>
 
+<!--
 <p>
-<strong>Date</strong>: TBC (September/October 2020)<br />
-<strong>Venue</strong>: TBC (Zürich)<br />
+<strong>Date</strong>: TBC<br />
+<strong>Venue</strong>: TBC<br />
 <strong>Language</strong>: English, German, French, Italian, ...<br />
 <strong>Cost</strong>: Free for private attendees, students, and speakers.
 </p>
+-->
 
 <!--
 <p>
@@ -21,7 +23,6 @@ Help us to advertise the conference in your company: <a href="[% make_uri_info('
 <p>
 The <a href="[% make_uri('schedule') %]">schedule</a> is online.
 </p>
--->
 
 <p>
 Please <a href="[% make_uri('register') %]">register</a> and <a href="[% make_uri('purchase') %]">confirm your participation</a> soon, to reserve your place. The conference is FREE for private attendees, students and speakers. Corporate attendees, please check the <a href="[% make_uri('registration.html') %]">Registration</a> page.
@@ -46,6 +47,7 @@ We are looking for Sponsors. Interested? Have a look at the packages on the <a h
 <p>
 Watch this space for updates, or check the <a href="[% global.request.base_url %][% make_uri_info( 'atom', global.request.language ) %].xml">feed</a>.
 </p>
+-->
 
 [% news = global.news(6);
    IF news.size > 3;
